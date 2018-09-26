@@ -137,7 +137,7 @@
     "test-android-instrumentation": "npm run test-android-build && npm run test-android-run-instrumentation",
     "test-android-unit": "npm run test-android-build && npm run test-android-run-unit",
     "test-android-e2e": "npm run test-android-build && npm run test-android-run-e2e",
-    "postinstall": "scripts/ios-install-third-party.sh"
+    "postinstall": "./temporary-xcode-10-fixes.sh"
   },
   "bin": {
     "react-native": "local-cli/wrong-react-native.js"
